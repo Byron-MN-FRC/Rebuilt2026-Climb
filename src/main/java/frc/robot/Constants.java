@@ -20,6 +20,18 @@ package frc.robot;
  * constants are needed, to reduce verbosity.
  */
 public class Constants {
+    public static final class ClimbConstants {
+
+        public static final double raiserUpperTarget = 100.0;
+        public static final double raiserLowerTarget = 0.0;
+
+        //public static final double climbUpperLimit = 205.0;
+        //public static final double climbLowerLimit = 0.06;
+        //public static final double climbSensorLimit = 0;
+
+        public static final double climbCurrentLimit = 25;
+
+    }
    /**
     * public static final class DriveConstants {
     *   public static final int kLeftMotor1Port = 0;
